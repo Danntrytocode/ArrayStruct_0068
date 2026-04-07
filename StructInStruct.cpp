@@ -8,7 +8,7 @@ struct DetailAlamat{
 struct orang{
     string nama;
     DetailAlamat alamat;
-    int umur
+    int umur;
 };
 
 int main()
@@ -31,4 +31,4 @@ int main()
     cout << "Desa : "<< mhs.alamat.desa<< endl;
     cout << "Kota : "<< mhs.alamat.kota<< endl;
     cout << "Umur : "<< mhs.umur<< endl;
-};
+}
