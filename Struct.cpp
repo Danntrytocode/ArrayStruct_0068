@@ -5,7 +5,7 @@ struct orang{
     string nama;
     string alamat;
     int umur;
-}
+};
 
 int main()
 {
