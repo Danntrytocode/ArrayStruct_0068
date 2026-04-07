@@ -7,6 +7,10 @@ int main(){
     //Deklarasi tanpa inisialisasi
     int datamu[5];
     int x;
-
-
+    //Cara membaca array dataku
+    cout << "data ke - 3 : "<< dataku[2]<<endl;
+    //Cara menulis atau mengisi array
+    dataku[2] = 600;
+    cout << "Data ke - 3 yang baru : "<< dataku[2]<< endl;
+    
 }
