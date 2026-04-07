@@ -6,3 +6,17 @@ struct orang{
     string alamat;
     int umur;
 }
+
+int main()
+{
+    //Deklarasi obyek 
+    orang mhs;
+
+    cout << "Nama Mahasiswa: ";
+    cin >> mhs.nama;
+    cout << "Alamat Asal: ";
+    cin >> mhs.alamat;
+    cout << "Umur: ";
+    cin >> mhs.umur;
+    cout << endl;
+}
