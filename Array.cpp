@@ -26,4 +26,12 @@ int main(){
     cin >> datamu[4];
 
     cout << endl;
+
+    //isi data dengan pengulangan for
+    for (int i = 0; i <= 4; i++)
+    {
+        cout << "Data Index ke - "<< i <<" : ";
+        cin >> datamu[1];
+    }
+    cout << endl;
 }
